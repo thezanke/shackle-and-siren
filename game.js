@@ -92,5 +92,5 @@ setInterval(updateMarket, 5000);
 setInterval(spawnTarget, targetSpawnInterval);
 
 // Add some initial inventory (for testing)
-addToInventory('Weed', 10);
-addToInventory('Cocaine', 5);
+addToInventory('Health', 10);
+addToInventory('Food', 5);

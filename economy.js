@@ -1,4 +1,4 @@
-export const drugs = ['Weed', 'Cocaine', 'Heroin', 'Meth'];
+export const drugs = ['Health', 'Food', 'Drink', 'Gas'];
 export let marketPrices = {};
 
 export function initMarket() {
