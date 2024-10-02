@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+#game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#game-canvas {
+    border: 2px solid #444;
+}
+
+#inventory, #market {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border: 1px solid #555;
+}
+
+#inventory {
+    top: 10px;
+    left: 10px;
+}
+
+#market {
+    top: 10px;
+    right: 10px;
+}
